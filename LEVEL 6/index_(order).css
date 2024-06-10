@@ -1,0 +1,50 @@
+*{
+    margin: 0px; padding: 0px;
+}
+.box
+{
+    height: 100px;
+    width: 100px;
+    border: 3px solid black;
+    margin: 5px;
+     
+}
+#heading
+{
+    text-align: center;
+}
+#container
+{
+    height: 400px;
+    width: 600px;
+    padding: 10px;
+    margin: 20px;
+    border: 3px solid black;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+     
+    align-items: start;
+}
+
+#box1 {
+    background-color: aqua;
+    order: 3;
+}
+
+#box2 {
+    background-color: blueviolet;
+    order: 1;
+
+}
+
+#box3 {
+    background-color: yellow;
+    order: 4;
+}
+
+#box4 {
+    background-color: tomato;
+    order: 1;
+}
