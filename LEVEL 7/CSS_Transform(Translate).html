@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     
+    <title>CSS_Transform</title>
+    <style>
+        .box
+        {
+            height: 50px;
+            width: 60px;
+            background-color: plum;
+            border: 2px solid black;
+            border-radius: 10px;
+            position: relative;
+            top: 50px;
+            left: 50px;
+
+            transition: all 2s ease-in-out 0s;
+        }
+
+         #box1{background-color: blue;}
+         #box1:hover{transform:translate(50px);}
+         #box2{background-color: green;}
+         #box2:hover{transform:translate(50px,50px);}
+         #box3{background-color: red;}
+         #box3:hover{transform: translatex(50px);}
+         #box4{background-color: yellow;}
+         #box4:hover{transform: translatey(50px);}
+        
+
+
+    </style>
+</head>
+<body>
+    <div id="box1" class="box">Box1</div>
+    <div id="box2" class="box">Box2</div>
+    <div id="box3" class="box">Box3</div>
+    <div id="box4" class="box">Box4</div>
+</body>
+</html>
